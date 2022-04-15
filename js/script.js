@@ -259,7 +259,7 @@ function getLocation() {
               <div class="main__item__more">
                   <p class="main__item__start"><span><i class="fa-solid fa-star"></i> </span>${item.star}</p>
                   <p class="main__item__time"><span><i class="fa-solid fa-hourglass"></i> </span>${item.time}</p>
-                  <p class="main__item__kilomet"><span><i class="fa-solid fa-road"></i> </span>${item.kilomet}</p>
+                  <p class="main__item__kilomet"><span><i class="fa-solid fa-road"></i> </span>${item.street}</p>
               </div>
               <p class="main__item__detail">
                   <span><i class="fa-solid fa-tag"></i></span> ${item.detail}

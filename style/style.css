@@ -733,6 +733,21 @@ body::-webkit-scrollbar-thumb {
   }
 }
 @media (max-width: 500px) {
+  .header__top {
+    height: 15vh;
+    display: block;
+  }
+  .header__top__left {
+    display: block;
+  }
+  .header__top__left .logo {
+    text-align: center;
+  }
+  .header__top__location {
+    width: 100%;
+    margin: 1rem auto;
+  }
+
   .header__top__cart {
     position: fixed;
     bottom: 4rem;
