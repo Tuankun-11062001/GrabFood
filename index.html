@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRAB FOOD</title>
+    <link rel="stylesheet" href="./style/config.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="icon" href="./asset/img/delivery.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="wrap">
+        <div class="container">
+            <div class="onload close">
+                <h1>GrabFood</h1>
+                <span class="circle"></span>
+            </div>
+            <header class="header">
+                <div class="header__top">
+                    <div class="header__top__left">
+                        <div class="header__top__photo">
+                            <!-- <img src="" alt=""> -->
+                            <h1 class="logo"><span>Grab</span>Food</h1>
+                        </div>
+                        <div class="header__top__location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <input type="text" placeholder="Nhập địa chỉ của bạn">
+                            <i class="fa-solid fa-location-crosshairs"></i>
+                        </div>
+                    </div>
+                    <div class="header__top__right">
+                        <div class="header__top__cart">
+                            <button class="btn-cart">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </button>
+                            <div class="card">
+                                <button class="btn close"><i class="fa-solid fa-xmark"></i></button>
+                                <div class="emtry">
+                                    <div class="photo">
+                                        <img src="./asset/img/emtry.jpg" alt="">
+                                    </div>
+                                    <p class="detail">Entry</p>
+                                </div>
+                                <div class="card__list">
+                                    <!-- <div class="card__item">
+                                        <div class="card__photo">
+                                            <img src="./asset/img/emtry.jpg" alt="">
+                                        </div>
+                                        <div class="card__content">
+                                            <h2 class="card__title">hello</h2>
+                                            <p class = "card__cost"> 20 k</p>
+                                            <input type="number" value="1" class="card__quarity">
+                                        </div>
+                                        <button class="card__delete">Delete</button>
+                                    </div> -->
+                                </div>
+                                <div class="total">
+                                    <h2 class="total-title">Total</h2>
+                                    <span class="total-number">0</span>
+                                </div>
+                                <button class="btn-buy">Buy</button>
+                            </div>
+                        </div>
+                        <div class="header__top__signin">
+                            <button class="btn-signin">Đăng nhập/Đăng ký</button>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="header__search">
+                    <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <input placeholder="Tìm món hoặc quán ăn"/>
+                </div>
+                <div class="header__bottom">
+                    <button class="btn btn-prev"><i class="fa-solid fa-arrow-left"></i></button>
+                    <button class="btn btn-next"><i class="fa-solid fa-arrow-right"></i></button>
+                    <div class="header__bottom__services">
+                        <div class="header__bottom__services__item">
+                            <h2 class="title__service">Gần tôi</h2>
+                        </div>
+                        <div class="header__bottom__services__item">
+                            <h2 class="title__service">Khuyễn Mãi</h2>
+                        </div>
+                        <div class="header__bottom__services__item">
+                            <h2 class="title__service">GrabFood Top-Stars</h2>
+                        </div>
+                        <div class="header__bottom__services__item">
+                            <h2 class="title__service">Bữa xế 0Đ</h2>
+                        </div>
+                        <div class="header__bottom__services__item">
+                            <h2 class="title__service">GrabNgonRe - x3 Ưu Đãi</h2>
+                        </div>
+                        <div class="header__bottom__services__item">
+                            <h2 class="title__service">Kim Lê 7 Món</h2>
+                        </div>
+                        <div class="header__bottom__services__item">
+                            <h2 class="title__service">Trà Sữa Trả Moca</h2>
+                        </div>
+                        <div class="header__bottom__services__item">
+                            <h2 class="title__service">Bộ Tứ Siêu Deal</h2>
+                        </div>
+                        <div class="header__bottom__services__item">
+                            <h2 class="title__service">Lẩu Nướng Cung Đình</h2>
+                        </div>
+                        <div class="header__bottom__services__item">
+                            <h2 class="title__service">Deal khủng chỉ 1K</h2>
+                        </div>
+                        <div class="header__bottom__services__item">
+                            <h2 class="title__service">Deal đậm Moca khao</h2>
+                        </div>
+                        <div class="header__bottom__services__item">
+                            <h2 class="title__service">Bữa Sáng 0Đ</h2>
+                        </div>
+                        <div class="header__bottom__services__item">
+                            <h2 class="title__service">Đại Tiệc Trưa 0Đ</h2>
+                        </div>
+                        <div class="header__bottom__services__item">
+                            <h2 class="title__service">Siêu tiệc giảm 99K</h2>
+                        </div>
+                        <div class="header__bottom__services__item">
+                            <h2 class="title__service">Freeship toàn sàn 44K</h2>
+                        </div>
+                        <div class="header__bottom__services__item">
+                            <h2 class="title__service">Quán Đỉnh Nửa Giá</h2>
+                        </div>
+                        <div class="header__bottom__services__item">
+                            <h2 class="title__service">Ngày Hội Trà Sữa</h2>
+                        </div>
+                        <div class="header__bottom__services__item">
+                            <h2 class="title__service">Tiệc Gà Ăn Thả Ga</h2>
+                        </div>
+                        <div class="header__bottom__services__item">
+                            <h2 class="title__service">GrabFood Deluxe</h2>
+                        </div>
+                        <div class="header__bottom__services__item">
+                            <h2 class="title__service">Đại tiệc 99K</h2>
+                        </div>
+                        <div class="header__bottom__services__item">
+                            <h2 class="title__service">Giờ Xế Mát Lạnh</h2>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <section class="main">
+                <div class="main__breadcrumbs">
+                    <a href="#">Trang chủ</a> 
+                    <span> > </span>
+                    <a href="#">Ẩm thực</a> 
+                    <span> > </span>
+                    <a href="#">Ăn vặt</a>
+                </div>
+                <h2 class="main__title">Khuyễn mãi tại <span>Hà nội</span></h2>
+                <div class="main__list">
+                    <!-- <div class="main__item">
+                        <div class="main__item__box">
+                            <div class="main__item__photo">
+                                <img src="https://d1sag4ddilekf6.azureedge.net/compressed/merchants/VNGFVN000004z8/hero/c3d67cdee91848ae98aea21edf8825dd_1648627128057512895.png" alt="">
+                            </div>
+                            <div class="main__item__content">
+                                <h3 class="main__item__title">bim suwa</h3>
+                                <p class="main__item__category">Gaf rans</p>
+                                <div class="main__item__more">
+                                    <p class="main__item__start"><span><i class="fa-solid fa-star"></i> </span>4.3</p>
+                                    <p class="main__item__time"><span><i class="fa-solid fa-hourglass"></i> </span>20</p>
+                                    <p class="main__item__kilomet"><span><i class="fa-solid fa-road"></i> </span>0.6</p>
+                                </div>
+                                <p class="main__item__detail">
+                                    <span><i class="fa-solid fa-tag"></i></span> combo bua trua sieu tiet kiem
+                                </p>
+                                <p class="main__item__cost">20k</p>
+                            </div>
+                            <div class="main__item__control">
+                                <button class="btn-add">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div> -->
+                    
+                </div>
+                <div class="main__box__product__over"></div>
+                <div class="main__box__product">
+                    <div class="main__box__product__contentBox">
+
+                    </div>
+                    <div class="main__box__product__btn">
+                        <button class="btn btn-add">Add to cart</button>
+                        <button class="btn btn-exit">cancel</button>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+    <script type="module" src="./js/script.js"></script>
+</body>
+</html>
